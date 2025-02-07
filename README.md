@@ -17,7 +17,7 @@ image_picker (For selecting images)
 url_launcher (For sending WhatsApp messages)
 
 📸 Screenshots
-https://github.com/madhavcvedpathak/Romantic-Proposal-/blob/24543fd06aa7d8fb3a9139c30ae4d7aaf29f214c/amain.jpg
+![image alt](https://github.com/madhavcvedpathak/Romantic-Proposal-/blob/24543fd06aa7d8fb3a9139c30ae4d7aaf29f214c/amain.jpg)  
 
 📜 How It Works?
 Enter the name of your special person.
