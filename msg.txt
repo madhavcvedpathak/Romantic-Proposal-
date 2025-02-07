@@ -1,0 +1,45 @@
+
+
+final message = 'I love you, Madhav! 💖 I love you ! You mean the world to me !💖 Madhav, I dont know how to say this but… I really like you. 💖 Every time I think about you, I smile. You make everything feel so much better, like Ive found something really special. 😊 I love how you make me feel happy just by being you. Youre so important to me, and I cant imagine my life without you in it. 💕 I really hope we can make this work. ❤️';
+
+
+
+
+
+From the first time I heard your voice 🎶, something felt different. I didn’t know your name, I hadn’t even seen you, but still, that voice stayed with me. It was like hearing something familiar for the first time, like a song that instantly feels special. 💖✨
+
+Days passed, and I kept wondering—who was she? 🤔 I searched 🔍, I connected the dots, and after what felt like forever ⏳, I finally found out your name. But life had one more surprise waiting for me. The girl I had always thought was cute 🥰, brilliant 🧠, and one of the best in college 🎓… turned out to be you. The same voice, the same person. And that moment, I just smiled 😊 because it felt like everything was falling into place.
+
+🌸 "Pehle awaaz se dil laga 🎶, phir naam jaanne ki bechaini…
+Aur jab sach samne aaya, tab samjha ki yeh bas ek ittefaq nahi tha." 💕✨
+
+And then, as if fate itself had planned everything 💫, we finally met. That moment, I just knew—this wasn’t random. This was meant to happen. 🥹💞
+
+So today, I want to ask you something that has been on my mind for a long time… Will you be mine? 💍💖
+Will you let me be the one who stands by you 👫, laughs with you 😂, supports you 💪, and makes countless memories together? 📸✨
+
+💛 "Zindagi ka ek hissa adhura lagta tha,
+par ab samajh aaya, uss kami ka naam tum thi." 💕
+
+I don’t know where life will take us 🚀, but one thing I’m sure of—I want to walk that path with you. 💑❤️
+
+With all my heart,
+Maddy ❤️🌹       
+
+
+
+
+
+
+void _sendMessage() async {
+    final phoneNumber = '9763031538'; // Your WhatsApp number
+    final message = 'I love you, Madhav 💖 I love you!';
+
+    final whatsappUri = Uri.parse("whatsapp://send?phone=$phoneNumber&text=${Uri.encodeComponent(message)}");
+
+    if (await canLaunchUrl(whatsappUri)) {
+      await launchUrl(whatsappUri, mode: LaunchMode.externalApplication);
+    } else {
+      print('WhatsApp is not installed or the link is incorrect.');
+    }
+  }         

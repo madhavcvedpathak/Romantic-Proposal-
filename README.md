@@ -1,2 +1,22 @@
-# Romantic-Proposal-
-Romantic Proposal ❤️ is a Flutter app for a magical love confession. It features a personalized love letter, custom background image, floating heart animations, and background music at full volume. A one-tap WhatsApp message ensures an unforgettable moment. Built to make love confessions creative and special. 💕
+
+Romantic Proposal ❤️
+📜 About This Project
+This is a unique Flutter-based proposal app designed to create a romantic and unforgettable moment. It allows users to customize a heartfelt love letter, play background music, and even send a beautifully crafted WhatsApp message with a single tap.
+
+The app includes:
+✔️ Custom Love Letter with personalized messages 💌
+✔️ Background Music (100% volume until everything is completed) 🎶
+✔️ Heart Animation for a romantic effect ❤️
+✔️ WhatsApp Integration for direct love confession 📲
+✔️ User’s Photo as the app background 🖼️
+
+🛠️ Tech Stack
+Flutter (Frontend)
+Dart (Programming Language)
+just_audio (For music playback)
+image_picker (For selecting images)
+url_launcher (For sending WhatsApp messages)
+
+By - themadhavvedpathak@gmail.com
+Github - @madhavcvedpathak
+

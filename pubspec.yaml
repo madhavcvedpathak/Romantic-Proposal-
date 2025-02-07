@@ -1,0 +1,26 @@
+name: love_note
+description: A unique proposal
+publish_to: 'none' # Remove this line if you want to publish the app
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.18  # or the latest version
+  image_picker: ^0.8.4+7
+  url_launcher: ^6.0.20
+  fluttertoast: ^8.0.8
+  marquee: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/zarasa.mp3
+
