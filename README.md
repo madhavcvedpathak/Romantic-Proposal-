@@ -38,7 +38,7 @@ Option to send a WhatsApp confession with a romantic message.
 💖 Special Thanks
 This app is a heartfelt creation inspired by love and emotions. If you like this project, give it a star ⭐ and share it with your loved ones!
 
-👤 Author
+👤 Made by -
 Madhav
 📧 themadhavvedpathak@example.com
-🌍 madhavcvedpathak
+🌍Github: madhavcvedpathak
